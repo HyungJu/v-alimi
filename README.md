@@ -17,3 +17,6 @@ yarn build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Website Design
+https://www.figma.com/file/exDYooku6dGe2BeSdLJb1m/Untitled?node-id=2%3A76
