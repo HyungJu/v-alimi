@@ -1,13 +1,19 @@
 <template>
-    <div class="card">
-        <h3 class="author">손순</h3>
-        <h1 class="title">결핵 검진 안내</h1>
+    <div class="card" v-bind:class="this.red">
+        <h3 class="author">{{this.author}}</h3>
+        <h1 class="title">{{this.title}}</h1>
     </div>
 </template>
 
 <script>
   export default {
     name: 'AlimiCard',
+    props: {
+      title: String,
+      author: String,
+      isInRed: Boolean,
+      image: String
+    }
   }
 </script>
 

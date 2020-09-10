@@ -1,10 +1,11 @@
 <template>
   <div class="home">
     <div class="container">
-      <AlimiCard />
-      <AlimiCard />
-      <AlimiCard />
-      <AlimiCard />
+
+      <AlimiCard title="안녕하세요" author="반갑습니다"/>
+      <AlimiCard  title="결핵 예방 접종안내" author="작가 2 "/>
+      <AlimiCard  title="안녕하세요" author="작가 3"/>
+      <AlimiCard  title="안녕하세요" author="하위"/>
     </div>
   </div>
 </template>
