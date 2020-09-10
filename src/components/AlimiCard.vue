@@ -26,10 +26,11 @@
         .author{
             font-weight: lighter;
             margin-bottom: 8px;
+            font-family: sans-serif;
             font-size: 1rem;
         }
         .title{
-            font-family: GmarketSansMedium;
+            font-family: GmarketSansMedium, sans-serif;
             font-size: 1.5rem;
         }
     }
