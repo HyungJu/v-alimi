@@ -44,8 +44,8 @@
     }
     .brand{
         p{
-            font-family: GmarketSansBold,sans-serif;
-            font-weight: bold;
+            font-family: GmarketSansMedium,sans-serif;
+            font-weight: normal;
             color: white;
             font-size: 1rem;
         }
