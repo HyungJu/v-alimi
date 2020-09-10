@@ -1,7 +1,10 @@
 <template>
   <div class="home">
     <div class="container">
-      hi
+      <AlimiCard />
+      <AlimiCard />
+      <AlimiCard />
+      <AlimiCard />
     </div>
   </div>
 </template>
@@ -16,12 +19,18 @@
     max-width: 1024px;
     color: white;
     padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-shrink: 1;
   }
 </style>
 <script>
+import AlimiCard from '../components/AlimiCard';
 export default {
   name: 'Home',
   components: {
+    AlimiCard
   }
 }
 </script>
