@@ -1,5 +1,6 @@
 # v-alimi
 
+Will be automatically deployed on https://v-alimi.vercel.app
 ## Project setup
 ```
 yarn install
